@@ -26,23 +26,39 @@ download the data
 
 https://drive.google.com/drive/folders/1xw0XX-WK74uxtFFLySbtnX-ODdmdK5Ec
 
+``` bash 
 git init
+```
 
+``` bash
 dvc init
+```
 
+``` bash
 dvc add data_given/winequality.csv
-
+```
+``` bash 
 git add .
+```
 
+``` bash
 git commit -m 'first commit'
+```
 
+``` bash
 git add . && git commit -m 'update Readme.md'
+```
 
+``` bash
 git remote add origin https://github.com/ReshmaChikate5/simple-dvc-demo.git
+```
 
+``` bash
 git branch -M main
-   
-git push -u origin main
+ ```
 
+``` bash  
+git push -u origin main
+```
 
 
