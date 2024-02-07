@@ -36,5 +36,13 @@ git add .
 
 git commit -m 'first commit'
 
+git add . && git commit -m 'update Readme.md'
+
+git remote add origin https://github.com/ReshmaChikate5/simple-dvc-demo.git
+
+git branch -M main
+   
+git push -u origin main
+
 
 
