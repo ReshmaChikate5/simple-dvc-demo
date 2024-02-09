@@ -21,7 +21,7 @@ def get_data(config_path):
 
 if __name__=="__main__":
     args = argparse.ArgumentParser()
-    args.add_argument("--config", default="param.yaml")
+    args.add_argument("--config", default="params.yaml")
     print('args', args)
     parsed_args = args.parse_args()
     print('parsed_args :', parsed_args)
